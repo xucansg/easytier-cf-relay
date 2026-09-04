@@ -64,9 +64,9 @@ LOG_LEVEL = "info"
 # 统计端点 token（与 METRICS_PATH 同时配置才启用；支持 Bearer 头或 ?token= 参数）
 # METRICS_TOKEN = "please-change-me-to-a-long-random-string"
 # Web 管理端路径（需与 ADMIN_TOKEN 同时配置才启用；页面壳公开、数据 API 鉴权；配置后请使用形如https://et.example.com<ADMIN_PATH>访问）
-# ADMIN_PATH = "/admin-please-change-me"
+ADMIN_PATH = "/admin-please-change-xucan"
 # 管理端 token（状态查看 / 踢出节点 / 删除分组）
-# ADMIN_TOKEN = "please-change-me-to-another-long-random-string"
+ADMIN_TOKEN = "please-change-xucan-to-another-long-random-string"
 
 [durable_objects]
 bindings = [
