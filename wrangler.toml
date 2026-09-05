@@ -18,7 +18,7 @@ SERVER_NETWORK_NAME = "public_server"
 SERVER_HOSTNAME = "easytier-cf-relay"
 SERVER_VERSION_STR = "easytier-cf-relay/1.0.0"
 # 指定 Durable Object 地区配置（可选值：wnam 西部地区（北美）enam 东部地区（北美）sam 南美洲 weur 西欧 eeur 东欧 apac	亚太地区（已设置，默认未开启） oc 大洋洲 afr 非洲 me 中东）
-# LOCATION_HINT = "apac"
+LOCATION_HINT = "apac"
 # 纯 P2P 模式：1 = 在 feature_flag 中宣告 avoid_relay_data（OSPF 给本节点边赋大代价，
 # 客户端优先直连 P2P，中继仅作兜底）；0 = 不宣告
 AVOID_RELAY_DATA = "1"
